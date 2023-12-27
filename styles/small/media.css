@@ -1,0 +1,62 @@
+@media all and (min-width: 430px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1024px) {
+
+    .header-wraper {
+        margin: 32px 64px;
+    }
+
+    .logo {
+        order: 1;
+    }
+    .login {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        order: 2;
+    }
+
+    .login-a {
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+
+    .login-button {
+        width: 115px;
+        height: 49px;
+        border-radius: 25px;
+        color: white;
+        background-color: #5D50C6;
+        border: 1px solid #5d50bd;
+        cursor: pointer;
+    }
+
+    .burger-menu {
+        order: 0;
+    }
+
+
+}
+
+@media all and (min-width: 1440px) {
+
+    .header-wraper {
+        margin: 40px 64px;
+    }
+    .navbar-menu {
+        display: flex;
+        gap: 64px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
