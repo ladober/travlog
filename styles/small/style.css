@@ -31,15 +31,9 @@
     justify-content: center;
 }
 
-.section-article-title {
-    align-items: center;
-}
 
 .section-article-title-a {
     color: #F85E9F;
-    display: flex;
-    justify-content: center;
-    align-items:center;
     gap: 5px;
     font-weight: 700;
     font-size: 1.4rem;
@@ -60,4 +54,97 @@
     font-size: 1.6rem;
     color: #828283;
 }
+
+.section-1-media {
+    margin-top: 32px;
+}
+.section-1-button {
+    width: 398px;
+    height: 65px;
+    color: white;
+    background-color: #5D50C6;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.section-demo {
+    display: flex;
+    margin-top: 51px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #222831;
+    gap: 5px;
+}
+
+/* section - 2 */
+
+.partners {
+    margin-top: 51px;
+}
+
+.partners-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;
+}
+
+/* section - 3 */
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.services-title {
+    text-align: center;
+    margin: 5px;
+}
+.services-title-h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Circular Std';
+    color: #F85E9F;
+}
+
+.services-article {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #191825;
+    font-family: 'Circular Std';
+}
+
+.services-description {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.services-description img {
+    margin-top: 32px;
+}
+
+.services-description h1 {
+    margin-top: 32px;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.services-description p {
+    margin-top: 32px;
+    font-family: 'Circular Std';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #19182580;
+
+}
+
+/* section - 4 */
+
 

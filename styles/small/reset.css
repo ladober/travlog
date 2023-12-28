@@ -24,3 +24,8 @@ img {
 body {
     background-color: rgb(248, 227, 200);
 }
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url(../../circular-std-medium-500.ttf);
+}
