@@ -147,4 +147,159 @@
 
 /* section - 4 */
 
+.section-destination {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-destination-title {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.destination-h1 {
+    font-weight: 700;
+    font-size: 1.6REM;
+    font-family: 'Circular Std';
+    color: #F85E9F;
+}
+
+.destination-paragraph {
+    font-weight: 700;
+    font-size: 3.2rem;
+    font-family: 'Circular Std';
+    color: #191825;
+    margin-top: 16px;
+}
+
+.section-destination-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.destination-left-button {
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.destination-right-button {
+    border: none;
+    background-color: #5D50C6;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* section - 5 - destinations */
+
+.section-destination-countries {
+    display: flex;
+    justify-content: center;
+}
+
+.destination-pictures {
+    margin-top: 32px;
+}
+
+.destination-description-price-paragraph {
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-family: 'Circular Std';
+    color: #F85E9F;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+.destination-description-paragraph {
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-family: 'Circular Std';
+    color: #191825;
+    margin-top: 8px;
+    margin-left: 32px;
+    width: 334px;
+}
+
+.destination-city-paragraph {
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Circular Std';
+    color: #a5a5a7bf;
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+.destination-rating {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+/* section - 6 - travel-group-2 */
+
+.section-travel-group2 {
+    display: flex;
+    justify-content: center;
+}
+
+.travel-group2-picture {
+    margin-top: 96px;
+}
+
+.travel-group2-title {
+    text-align: center;
+}
+
+.travel-group2-title-h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Circular Std';
+    color: #F85E9F;
+    margin-top: 64px;
+    text-transform: uppercase;
+}
+
+.travel-group2-paragraph {
+    font-weight: 700;
+    font-size: 3.2rem;
+    font-family: 'Circular Std';
+    color: #191825;
+    margin-top: 16px;
+}
+
+.travel-group2-article {
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: 'Circular Std';
+    color: #9d9d9e;
+    margin-top: 32px;
+    width: 398px;
+}
+
+.travel-descriptions {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.travel-descriptions-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    font-family: 'Circular Std';
+    color: #FF5722;
+    margin-top: 64px;
+}
+
+.travel-descriptions-paragraph {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Inter';
+    color: #191825;
+}
+
+/* section - 7 - travel-group-3 */
+
 

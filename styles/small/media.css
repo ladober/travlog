@@ -6,6 +6,11 @@
     .login {
         display: none;
     }
+
+    .travel-group2-picture {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media all and (min-width: 1024px) {
@@ -49,6 +54,14 @@
     .partners-items {
         max-width: 600px;
     }
+
+    .section-destination-wrapper {
+        display: flex;
+    }
+
+    .destination-description-paragraph {
+        width: 214px;
+    }
 }
 
 @media all and (min-width: 1440px) {
@@ -69,5 +82,9 @@
         flex-wrap: nowrap;
         max-width: 1200px;
         gap: 99px;
+    }
+
+    .section-destination-wrapper {
+        display: flex;
     }
 }

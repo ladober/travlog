@@ -29,3 +29,8 @@ body {
     font-family: 'Circular Std';
     src: url(../../circular-std-medium-500.ttf);
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../Inter-VariableFont_slnt\,wght.ttf);
+}
