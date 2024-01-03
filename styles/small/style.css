@@ -259,7 +259,6 @@
     font-family: 'Circular Std';
     color: #F85E9F;
     margin-top: 64px;
-    text-transform: uppercase;
 }
 
 .travel-group2-paragraph {
@@ -302,4 +301,135 @@
 
 /* section - 7 - travel-group-3 */
 
+.section-promotion {
+    display: flex;
+    justify-content: center;
+}
+
+.promotion-img {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.promotion-description {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.promotion-h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Circular Std';
+    color: #F85E9F;
+}
+
+.promotion-paragraph {
+    font-weight: 700;
+    font-size: 3.2rem;
+    font-family: 'Circular Std';
+    color: #191825;
+    margin-top: 16px;
+}
+
+.promotion-article {
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: 'Inter';
+    color: #9d9d9e;
+    margin-top: 32px;
+    max-width: 334px;
+}
+
+.promotion-logo {
+    margin-top: 64px;
+}
+
+.promotion-logo-title {
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-family: 'Circular Std';
+    color: #191825;
+    margin-top: 32px;
+}
+
+.promotion-logo-description {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Inter';
+    color: #9d9d9e;
+}
+
+/* section - 8 - clients */
+
+.section-clients {
+    text-align: center;
+}
+
+.clients-h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Circular Std';
+    color: #F85E9F;
+    margin-top: 96px;
+    text-transform: uppercase;
+}
+
+.clients-paragraph {
+    font-weight: 700;
+    font-size: 3.2rem;
+    font-family: 'Circular Std';
+    color: #191825;
+    margin-top: 16px;
+}
+
+.clients-icon {
+    margin-top: 64px;
+}
+
+.client-enthusiast {
+    margin-top: 64px;
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-family: 'Circular Std';
+    color: #9d9d9e;
+}
+
+.client-enthusiast-span {
+    font-size: 2.8rem;
+    color: #FF5722;
+}
+
+.clients-rating-logo {
+    margin-top: 32px;
+}
+
+.clients-article {
+    font-weight: 450;
+    font-size: 1.8rem;
+    font-family: 'Circular Std';
+    color: #9d9d9e;
+    max-width: 398px;
+}
+
+.clients-scrol {
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    gap: 270px;
+}
+
+.clients-left-button {
+    border: none;
+    background-color: unset;
+}
+
+.clients-right-button {
+    border: none;
+    background-color: #5D50C6;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
 
