@@ -82,7 +82,7 @@
 /* section - 2 */
 
 .partners {
-    margin-top: 51px;
+    margin-top: 91px;
 }
 
 .partners-items {
@@ -92,7 +92,7 @@
     gap: 27px;
 }
 
-/* section - 3 */
+/* section - 3 - services */
 
 .services {
     display: flex;
@@ -110,6 +110,7 @@
     font-size: 1.6rem;
     font-family: 'Circular Std';
     color: #F85E9F;
+    text-transform: uppercase;
 }
 
 .services-article {
@@ -145,7 +146,7 @@
 
 }
 
-/* section - 4 */
+/* section - 4 - destination-title */
 
 .section-destination {
     margin-top: 65px;
@@ -210,7 +211,7 @@
     font-size: 2.3rem;
     font-family: 'Circular Std';
     color: #F85E9F;
-    margin-left: 40px;
+    margin-left: 32px;
     margin-top: 32px;
 }
 
@@ -221,7 +222,7 @@
     color: #191825;
     margin-top: 8px;
     margin-left: 32px;
-    width: 334px;
+    max-width: 334px;
 }
 
 .destination-city-paragraph {
@@ -251,14 +252,14 @@
 
 .travel-group2-title {
     text-align: center;
+    margin-top: 64px;
+    max-width: 398px;
 }
-
 .travel-group2-title-h1 {
     font-weight: 700;
     font-size: 1.6rem;
     font-family: 'Circular Std';
     color: #F85E9F;
-    margin-top: 64px;
 }
 
 .travel-group2-paragraph {
@@ -269,13 +270,12 @@
     margin-top: 16px;
 }
 
-.travel-group2-article {
+.group2-article {
     font-weight: 400;
     font-size: 1.6rem;
-    font-family: 'Circular Std';
+    font-family: 'Inter';
     color: #9d9d9e;
     margin-top: 32px;
-    width: 398px;
 }
 
 .travel-descriptions {
@@ -316,7 +316,6 @@
     margin-top: 64px;
     text-align: center;
 }
-
 .promotion-h1 {
     font-weight: 700;
     font-size: 1.6rem;
@@ -338,13 +337,17 @@
     font-family: 'Inter';
     color: #9d9d9e;
     margin-top: 32px;
-    max-width: 334px;
+    max-width: 398px;
+}
+
+.promotion-logo-items {
+    text-align: left;
+    margin-left: 64px;
 }
 
 .promotion-logo {
     margin-top: 64px;
 }
-
 .promotion-logo-title {
     font-weight: 700;
     font-size: 2.3rem;
@@ -361,10 +364,12 @@
     color: #9d9d9e;
 }
 
-/* section - 8 - clients */
+/* section - 8 - travel enthusiast */
 
 .section-clients {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .clients-h1 {
@@ -433,3 +438,97 @@
     border-radius: 50%;
 }
 
+/* section - 9 - newsletter */
+
+.section-newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-title {
+    text-align: center;
+    margin-top: 96px;
+    max-width: 332px;
+}
+
+.newsletter-title-h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Circular Std';
+    color: #F85E9F;
+
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.newsletter-title-paragraph {
+    font-weight: 700;
+    font-size: 3.2rem;
+    font-family: 'Circular Std';
+    color: #191825;
+    margin-top: 32px;
+}
+
+.newsletter-email {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: 'Circular Std';
+    color: #9d9d9e;
+    margin-top: 91.5px;
+}
+
+.newsletter-button {
+    border: none;
+    background-color: #5D50C6;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: white;
+    width: 334px;
+    height: 67px;
+    margin-top: 59.5px;
+}
+
+/* section - 10 - travlog */
+
+.section-travlog {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 16px;
+    margin-top: 96px;
+    height: 554px;
+}
+
+.travlog-paragraph {
+    margin-top: 32px;
+    font-weight: 450;
+    font-size: 1.6rem;
+    font-family: 'Circular Std';
+    color: #9d9d9e;
+    max-width: 398px;
+}
+
+.travlog-social-media {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+}
+
+.travlog-menu {
+    max-width: 382px;
+}
+
+.travlog-menu-items {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-family: 'Circular Std';
+    color: #191825;
+}

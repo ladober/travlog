@@ -41,10 +41,22 @@
       <!-- section 1 - explore-the-world -->
       <section>
         <div class="section-1-img">
-          <img
-            src="assets/img/destinations/small/travel-group-1-sm.png"
-            alt=""
-          />
+          <a href="#">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="assets/img/destinations/large/travel-group-1.png"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="assets/img/destinations/medium/travel-group-1.png"
+              />
+              <img
+                src="assets/img/destinations/small/travel-group-1-sm.png"
+                alt=""
+              />
+            </picture>
+          </a>
         </div>
         <div class="section-1-article">
           <div class="section-wrapper">
@@ -63,8 +75,12 @@
                 as possible
               </p>
             </div>
+
             <div class="section-1-media">
-              <button class="section-1-button">Get Started</button>
+              <div class="get-started-button">
+                <button class="section-1-button">Get Started</button>
+              </div>
+
               <div class="section-demo">
                 <img src="assets/icon/play-button.svg" alt="play button" />
                 <a href="#">Watch Demo</a>
@@ -137,20 +153,21 @@
           <h1 class="services-title-h1">Services</h1>
           <p class="services-article">Our top value categories for you</p>
         </div>
+
         <div class="services-description">
-          <div>
+          <div class="services-description-items">
             <img src="assets/icon/globe-icon.svg" alt="globe icon" />
             <h1>Best Tour Guide</h1>
             <p>
               What looked like a small patch of purple grass, above five feet.
             </p>
           </div>
-          <div>
+          <div class="services-description-items">
             <img src="assets/icon/booking-icon.svg" alt="booking icon" />
             <h1>Easy Booking</h1>
             <p>Square, was moving across the sand in their direction.</p>
           </div>
-          <div>
+          <div class="services-description-items">
             <img src="assets/icon/weather-icon.svg" alt="weather icon" />
             <h1>Weather Forecast</h1>
             <p>
@@ -294,13 +311,13 @@
             </a>
           </div>
 
-          <div>
-            <div class="travel-group2-title">
+          <div class="travel-group2-title">
+            <div class="travel-test">
               <h1 class="travel-group2-title-h1">TRAVEL POINT</h1>
               <p class="travel-group2-paragraph">
                 We helping you find your dream location
               </p>
-              <article class="travel-group2-article">
+              <article class="group2-article">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin literature from
                 45 BC.
@@ -308,19 +325,19 @@
             </div>
 
             <div class="travel-descriptions">
-              <div>
+              <div class="test-container">
                 <p class="travel-descriptions-title">500+</p>
                 <p class="travel-descriptions-paragraph">Holiday Package</p>
               </div>
-              <div>
+              <div class="test-container">
                 <p class="travel-descriptions-title">100</p>
                 <p class="travel-descriptions-paragraph">Luxury Hotel</p>
               </div>
-              <div>
+              <div class="test-container">
                 <p class="travel-descriptions-title">7</p>
                 <p class="travel-descriptions-paragraph">Pramium Airlines</p>
               </div>
-              <div>
+              <div class="test-container">
                 <p class="travel-descriptions-title">2k+</p>
                 <p class="travel-descriptions-paragraph">Happy Customers</p>
               </div>
@@ -363,33 +380,39 @@
               </article>
             </div>
 
-            <div>
+            <div class="promotion-logo-items">
               <div class="promotion-logo">
                 <a href="#"
                   ><img src="assets/icon/service-offer.svg" alt="services logo"
                 /></a>
-                <p class="promotion-logo-title">We offer best services</p>
-                <article class="promotion-logo-description">
-                  Lorem Ipsum is not simply random text
-                </article>
+                <div class="promotion-text-test">
+                  <p class="promotion-logo-title">We offer best services</p>
+                  <article class="promotion-logo-description">
+                    Lorem Ipsum is not simply random text
+                  </article>
+                </div>
               </div>
               <div class="promotion-logo">
                 <a href="#"
                   ><img src="assets/icon/trip-offer.svg" alt="trip logo"
                 /></a>
-                <p class="promotion-logo-title">Schedule your trip</p>
-                <article class="promotion-logo-description">
-                  It has roots in a piece of classical
-                </article>
+                <div>
+                  <p class="promotion-logo-title">Schedule your trip</p>
+                  <article class="promotion-logo-description">
+                    It has roots in a piece of classical
+                  </article>
+                </div>
               </div>
               <div class="promotion-logo">
                 <a href="#"
                   ><img src="assets/icon/coupon-offer.svg" alt="coupon logo"
                 /></a>
-                <p class="promotion-logo-title">Get discounted coupons</p>
-                <article class="promotion-logo-description">
-                  Lorem Ipsum is not simply random text
-                </article>
+                <div>
+                  <p class="promotion-logo-title">Get discounted coupons</p>
+                  <article class="promotion-logo-description">
+                    Lorem Ipsum is not simply random text
+                  </article>
+                </div>
               </div>
             </div>
           </div>
@@ -431,8 +454,103 @@
           </div>
         </div>
       </section>
+
+      <!-- section - 9 - newsletter -->
+
+      <section class="section-newsletter">
+        <div>
+          <div class="newsletter-title">
+            <h1 class="newsletter-title-h1">subscribe to our newsletter</h1>
+            <p class="newsletter-title-paragraph">
+              Prepare yourself & let’s explore the beauty of the world
+            </p>
+          </div>
+
+          <div class="newsletter-media">
+            <a class="newsletter-email" href="#"
+              ><img src="assets/icon/e-mail-logo.svg" alt="e-mail logo" />Your
+              Email</a
+            >
+            <button class="newsletter-button">Subscribe</button>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="section-travlog">
+        <div>
+          <div>
+            <a href="#"><img src="assets/icon/logo.svg" alt="logo" /></a>
+            <p class="travlog-paragraph">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC.
+            </p>
+            <div class="travlog-social-media">
+              <a href="#"
+                ><img src="assets/icon/fb.svg" alt="facebook logo"
+              /></a>
+              <a href="#"
+                ><img src="assets/icon/twitter.svg" alt="twitter logo"
+              /></a>
+              <a href="#"
+                ><img src="assets/icon/ig.svg" alt="instagram logo"
+              /></a>
+            </div>
+          </div>
+
+          <div class="travlog-menu">
+            <div class="travlog-menu-items">
+              <a href="#">Company</a>
+              <img src="assets/icon/arrow-menu.svg" alt="company menu" />
+            </div>
+            <div class="travlog-menu-items">
+              <a href="#">Contact Us</a>
+              <img src="assets/icon/arrow-menu.svg" alt="contact us menu" />
+            </div>
+            <div class="travlog-menu-items">
+              <a href="#">Meet Us</a>
+              <img src="assets/icon/arrow-menu.svg" alt="meet us menu" />
+            </div>
+          </div>
+
+          <!-- <div> -->
+          <table class="travlog-table">
+            <tr>
+              <th class="travlog-th-company-font"><a href="#">Company</a></th>
+              <th class="travlog-th-contact"><a href="#">Contact</a></th>
+              <th class="travlog-th-meetus"><a href="#">Meet Us</a></th>
+            </tr>
+
+            <tr>
+              <td class="travlog-tr-about-font"><a h-fontref="#">About</a></td>
+              <td class="travlog-tr-1"><a href="#">Why travlog?</a></td>
+              <td class="travlog-tr"><a href="#">+00 92 1234 56789</a></td>
+            </tr>
+
+            <tr>
+              <td class="travlog-tr-about-font"><a href="#">Career</a></td>
+              <td class="travlog-tr-1"><a href="#">Partner with us</a></td>
+              <td class="travlog-tr"><a href="#">info@travlog.com</a></td>
+            </tr>
+
+            <tr>
+              <td class="travlog-tr-about-font"><a href="#">Mobile</a></td>
+              <td class="travlog-tr-1"><a href="#">FAQ's</a></td>
+              <td class="travlog-tr">
+                <a href="#">205. R Street, New York</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td class="travlog-tr-1"><a href="#">Blog</a></td>
+              <td class="travlog-tr"><a href="#">BD23200</a></td>
+            </tr>
+          </table>
+          <!-- </div> -->
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
