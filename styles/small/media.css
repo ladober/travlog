@@ -422,14 +422,52 @@
     .header-wraper {
         margin: 40px 64px;
     }
+
+    .logo {
+        display: flex;
+        order: 0;
+    }
     .navbar-menu {
         display: flex;
         gap: 64px;
+        order: 1;
+        font-weight: 700;
+        font-size: 1.8rem;
+        font-family: 'Circular Std';
+        color:#cf1296;
     }
 
     .burger-menu {
         display: none;
     }
+
+    /* section 1 - explore-the-world */
+
+    .section-1-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin-top: 96px;
+    }
+
+    .section-wrapper {
+        max-width: 410px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .section-1-img {
+        margin-top: 0;
+        order: 1;
+    }
+
+    .section-1-media {
+        display: flex;
+        justify-content: left;
+    }
+
+    /* section - 2 - partners */
+    
     .partners-items {
         display: flex;
         flex-wrap: nowrap;
@@ -437,7 +475,75 @@
         gap: 99px;
     }
 
+    .partners {
+        margin-top: 60px;
+    }
+
+    /* section - 3 - services */
+
+    .services {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        margin-top: 192px;
+    }
+
+    .services-title {
+        text-align: left;
+        margin: 0;
+        max-width: 350px;
+        height: 150px;
+    }
+
+    .services-description {
+        display: flex;
+        margin-top: 0;
+        gap: 20px;
+    }
+
+    .services-description-items {
+        max-width: 222px;
+    }
+
+    /* section - 4 - destination-title */
+    
+    .section-destination {
+        margin-top: 192px;
+        display: flex;
+    }
+
+    .section-destination-title {
+        margin-top: 0;
+        text-align: left;
+        display: flex;
+        gap: 600px;
+        align-items: center;
+    }
+
+    .section-destination-button {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
     .section-destination-wrapper {
         display: flex;
     }
+
+    /* section - 5 - destinations */
+
+    .section-destination-countries {
+        display: flex;
+        justify-content: center;
+        margin-top: 64px;
+    }
+
+    .destination-pictures {
+        margin-top: 0;
+    }
+
+    /* section - 6 - travel-group-2 */
+
+    
 }
