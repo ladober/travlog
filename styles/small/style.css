@@ -264,7 +264,7 @@
 
 .travel-group2-paragraph {
     font-weight: 700;
-    font-size: 3.2rem;
+    font-size: 4rem;
     font-family: 'Circular Std';
     color: #191825;
     margin-top: 16px;
@@ -456,7 +456,6 @@
     font-size: 1.6rem;
     font-family: 'Circular Std';
     color: #F85E9F;
-
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -493,7 +492,7 @@
     margin-top: 59.5px;
 }
 
-/* section - 10 - travlog */
+/* section - 10 - travlog - footer */
 
 .section-travlog {
     display: flex;
